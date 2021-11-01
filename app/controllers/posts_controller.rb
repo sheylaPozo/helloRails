@@ -7,6 +7,6 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
   end
 
-  def hello
+  def hello world
   end
 end
